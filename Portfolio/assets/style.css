@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+.main{
+    background-color: #ebedeff2;
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgb (0,0,0,0,1);
+    text-align: center;
+    
+}
+.container {
+    border-radius: 20px;
+    background-color: rgb(199, 201, 203);
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.course {
+    color: black;
+    margin: 5px 0 0;
+}
+
+.profile-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.info section {
+    border-radius: 30px;
+    background-color: rgb(199, 201, 203);
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 300px;  
+}
+.socialaccounts{
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    margin-top: 0;
+    color: black;
+}

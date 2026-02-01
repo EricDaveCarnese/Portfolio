@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2ndpage</title>
+    <style>
+        body{
+            align-items: center;
+            
+            justify-content: center;
+        }
+        /*.header{
+            border-radius: 15px ;
+            background-color: #4d9ae7f2;
+            border: solid 5px rgb(254, 102, 0);
+            padding: 20px;
+            max-width: 600px;
+            border-radius: 15px;
+            text-align: center;
+        }*/
+        .form-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgb(0,0,0,0,1);
+            max-width: 600px;
+            background-color: #4d9ae7f2;
+        }
+        input,select,textarea {
+            align-items: center;
+            display: block;
+        }
+        #male, #female, #coding, #sports{
+            display: inline;
+            
+        }
+        table{
+            margin: auto;
+            border-spacing: 0;
+            border: 2px solid #ddd;
+            border-radius: 16px 16px 0 0;
+            overflow: hidden;
+            min-width: 1000px;
+        }
+        th, td{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        @media(max-width: 480px) {
+            .form-card{
+                padding: 10px;
+                background-color: red;
+            }
+            input, textarea, button{
+                width: 100%;
+            }
+            #male, #female, #coding, #reading, #sports, #writing{
+                width: auto;
+            } 
+        }
+        @media (max-width: 768px) {
+            .table-css {
+                overflow-x: auto;
+                background-color: blue;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+</div>
+<div class="form-card">
+    <div class="header">
+    <h1>This is 2nd Page</h1>
+    <a href="biography.html">back to home page</a>
+
+    <br>
+    <br>
+    <form>
+        <!--Fullname-->
+        <label for="">Full Name</label>
+        <input type="text" placeholder="Enter full name" id="fullname" required>
+
+        <!--Email-->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!--Password-->
+        <label for="password"> Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter you password">
+
+        <!--Age-->
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="1" max="120">
+
+        <!--Date of Birth-->
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+
+        <!--Gender-->
+        <label>Gender</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+            <br>
+        <!--Checkbox-->
+        <label>Hobbies</label>
+<br>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+    <label>
+        <input type="checkbox" name="hobbies" value="Coding"> Coding
+    </label>
+
+    <label>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+    </label>
+
+    <label>
+        <input type="checkbox" name="hobbies" value="Sports"> Sports
+    </label>
+
+    <label>
+        <input type="checkbox" name="hobbies" value="Writing"> Writing
+    </label>
+</div>
+
+            <br>
+
+        <!--Dropdown Select-->
+        <label for="course">Select Course</label>
+        <select id="course" name="course">
+            <option value="it">Information Technology</option>
+            <option value="cs">Computer Science</option>
+            <option value="eng">Engineering</option>
+        </select>
+            <br>
+
+        <!--Textarea-->
+        <label for="bio">Short Bio</label>
+        <textarea id="bio" name="bio" rows="4" placeholder="Tell us someting about yourself"></textarea>
+            <br>
+
+        <!--Submit Button-->
+        <button type="button">Submit</button>
+    </form>
+        <br>
+<!--<div class="table-css">
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+                <th>Header 6</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+    </table>
+</div>-->
+</div>
+</body>
+</html>
