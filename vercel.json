@@ -2,6 +2,8 @@
   "version": 2,
   "routes": [
     { "src": "/(pic|school|style\\.css)/(.*)", "dest": "/$1/$2" },
+    { "src": "/biography.html", "dest": "/biography.html" },
+    { "src": "/portfolio.html", "dest": "/portfolio.html" },
     { "src": "/(.*)", "dest": "/portfolio.html" }
   ]
 }
